@@ -5,8 +5,9 @@
         class="video-docker absolute top-0 left-0 w-full h-full overflow-hidden"
     >
         <video
+            poster=""
             class="min-w-full min-h-full absolute object-cover"
-            src="https://josecuono.dev/video1.mp4"
+            src="shortBoxingCinematic.mp4"
             type="video/mp4"
             autoplay
             muted
@@ -15,13 +16,12 @@
     </div>
     <div class="video-content space-y-2">
         <h1 class="font-light text-6xl">Authentic Boxing</h1>
-        <h3 class="font-light text-3xl">with TailwindCSS</h3>
     </div>
 </section>
 
 <style>
     .video-docker video {
-        top: 50%;
+        top: 45%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
@@ -32,7 +32,7 @@
         height: 100%;
         top: 0;
         left: 0;
-        background: rgba(0, 0, 0, 0.6);
+        background: rgba(0, 0, 0, 0.342);
         z-index: 1;
     }
 

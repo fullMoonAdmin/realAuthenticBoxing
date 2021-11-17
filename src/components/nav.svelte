@@ -11,7 +11,7 @@
 </script>
 
 <nav
-    class="flex flex-wrap items-center justify-between p-5 bg-gradient-to-r from-transparent to-gray-600 sticky top-0 z-50"
+    class="flex flex-wrap items-center justify-between p-5 bg-gradient-to-r from-black to-gray-600 sticky top-0 z-50 border-gray-50 border-b"
 >
     <!-- logo -->
     <img src="http://acmelogos.com/images/logo-1.svg" alt="ACME" width="120" />
