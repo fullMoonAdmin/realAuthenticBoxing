@@ -15,5 +15,8 @@
     "svelte": "^3.42.6",
     "tailwindcss": "^2.2.19"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "@rodneylab/svelte-social-icons": "^0.0.16"
+  }
 }

@@ -11,10 +11,12 @@
 </script>
 
 <nav
-    class="flex flex-wrap items-center justify-between p-5 bg-gradient-to-r from-black to-gray-600 sticky top-0 z-50 border-gray-50 border-b"
+    class="flex flex-wrap items-center justify-between p-5 bg-gradient-to-r from-black to-gray-600 sticky top-0 z-50 "
 >
     <!-- logo -->
-    <img src="http://acmelogos.com/images/logo-1.svg" alt="ACME" width="120" />
+    <a href="/">
+        <img src="authenticBoxing.jpeg" alt="ACME" width="70" id="logo" />
+    </a>
     <!-- hamburger -->
     <div class="flex md:hidden">
         <button id="hamburger">
@@ -39,14 +41,14 @@
         class="toggle hidden md:flex w-full md:w-auto text-right text-bold mt-5 md:mt-0 border-t-2 border-blue-900 md:border-none"
     >
         <a
-            href="#"
+            href="/"
             class="block md:inline-block text-gray-50 hover:text-blue-500 px-3 py-3 border-b-2 border-blue-900 md:border-none"
             >Home</a
         >
         <a
-            href="#"
+            href="/about"
             class="block md:inline-block text-gray-50 hover:text-blue-500 px-3 py-3 border-b-2 border-blue-900 md:border-none"
-            >Products</a
+            >About</a
         >
         <a
             href="#"
@@ -60,3 +62,13 @@
         >
     </div>
 </nav>
+
+<style>
+    nav {
+        border-bottom: gray solid 1px;
+        margin-top: -15px;
+    }
+    #logo {
+        background-color: green;
+    }
+</style>

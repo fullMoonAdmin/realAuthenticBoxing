@@ -1,8 +1,13 @@
+<script>
+    import Button from "../components/button.svelte";
+</script>
+
 <section
     class="relative h-screen flex flex-col items-center justify-center text-center text-white py-0 px-3"
 >
     <div
-        class="video-docker absolute top-0 left-0 w-full h-full overflow-hidden"
+        class="video-docker absolute top-0 left-0 w-full h-full overflow-hidden "
+        id="docker"
     >
         <video
             poster=""
@@ -14,29 +19,37 @@
             loop
         />
     </div>
-    <div class="video-content space-y-2">
-        <h1 class="font-light text-6xl">Authentic Boxing</h1>
+
+    <div class="video-content">
+        <Button />
+        <h1>Authentic Boxing</h1>
     </div>
 </section>
 
 <style>
+    @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+
     .video-docker video {
-        top: 45%;
+        top: 43%;
         left: 50%;
         transform: translate(-50%, -50%);
-    }
-    .video-docker::after {
-        content: "";
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        background: rgba(0, 0, 0, 0.342);
-        z-index: 1;
     }
 
     .video-content {
         z-index: 2;
+    }
+    h1 {
+        position: absolute;
+        top: 70px;
+        left: 20px;
+        color: rgba(192, 192, 192, 0.616);
+        z-index: 0;
+        font-size: 3.5em;
+        font-family: "Alfa Slab One", cursive;
+        -webkit-text-stroke: 1px black;
+    }
+    #docker {
+        background-color: black;
+        margin-bottom: -1px;
     }
 </style>

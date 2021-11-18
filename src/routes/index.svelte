@@ -6,19 +6,27 @@
 <svelte:head>
     <title>Authentic Boxing</title>
 </svelte:head>
-<Hero />
 
-<main class="bg-black m-12">
-    <h1 class="text-gray-50 content-center">HELLO</h1>
+<Hero />
+<main>
+    <h1>hello</h1>
     <br />
-    <h1 class="text-gray-50 content-center">HELLO</h1>
+    <h1>hello</h1>
     <br />
-    <h1 class="text-gray-50 content-center">HELLO</h1>
+    <h1>hello</h1>
     <br />
-    <h1 class="text-gray-50 content-center">HELLO</h1>
+    <h1>hello</h1>
     <br />
-    <h1 class="text-gray-50 text-center">HELLO</h1>
-    <br />
-    <h1 class="text-gray-50 content-center">HELLO</h1>
+    <h1>hello</h1>
     <br />
 </main>
+
+<style>
+    main {
+        background-color: black;
+        margin-bottom: 25px;
+    }
+    h1 {
+        color: gray;
+    }
+</style>
