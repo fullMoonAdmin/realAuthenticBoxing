@@ -13,6 +13,8 @@
                     network="twitter"
                     width="24"
                     height="24"
+                    fgColor="#FFFFFF"
+                    bgColor="#0778E8"
                 />
             </a>
             <a href="https://facebook.com">
@@ -21,6 +23,8 @@
                     network="facebook"
                     width="24"
                     height="24"
+                    fgColor="#FFFFFF"
+                    bgColor="#0778E8"
                 />
             </a>
             <div>

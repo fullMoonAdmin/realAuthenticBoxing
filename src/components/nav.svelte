@@ -15,7 +15,12 @@
 >
     <!-- logo -->
     <a href="/">
-        <img src="authenticBoxing.jpeg" alt="ACME" width="70" id="logo" />
+        <img
+            src="authenticLogo.svg"
+            alt="Authentic Logo"
+            width="70"
+            id="logo"
+        />
     </a>
     <!-- hamburger -->
     <div class="flex md:hidden">
@@ -67,8 +72,5 @@
     nav {
         border-bottom: gray solid 1px;
         margin-top: -15px;
-    }
-    #logo {
-        background-color: green;
     }
 </style>

@@ -50,6 +50,7 @@
     }
     #docker {
         background-color: black;
-        margin-bottom: -1px;
+        margin-bottom: -20px;
+        height: 100%;
     }
 </style>

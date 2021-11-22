@@ -1,4 +1,15 @@
 <script>
 </script>
 
-<h1>this is an about page</h1>
+<main>
+    <h1>hello</h1>
+</main>
+
+<style>
+    main {
+        margin-top: 15px;
+        background-color: black;
+        color: blue;
+        height: 100vh;
+    }
+</style>
