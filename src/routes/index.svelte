@@ -1,6 +1,7 @@
 <script>
     console.log("lets get it started");
     import Hero from "../components/hero.svelte";
+    import Contact from "../components/contact.svelte";
 </script>
 
 <svelte:head>
@@ -9,24 +10,19 @@
 
 <Hero />
 <main>
-    <h1>hello</h1>
-    <br />
-    <h1>hello</h1>
-    <br />
-    <h1>hello</h1>
-    <br />
-    <h1>hello</h1>
-    <br />
-    <h1>hello</h1>
-    <br />
+    <div id="flex-container">
+        <Contact />
+    </div>
 </main>
 
 <style>
     main {
         background-color: black;
         margin-bottom: 25px;
-    }
-    h1 {
         color: gray;
+    }
+    #flex-container {
+        display: flex;
+        justify-content: center;
     }
 </style>

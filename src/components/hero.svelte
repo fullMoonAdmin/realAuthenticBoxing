@@ -30,9 +30,10 @@
     @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
 
     .video-docker video {
-        top: 43%;
+        top: 45%;
         left: 50%;
         transform: translate(-50%, -50%);
+        margin-bottom: -20px;
     }
 
     .video-content {

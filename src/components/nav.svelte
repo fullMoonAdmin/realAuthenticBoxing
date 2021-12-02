@@ -56,14 +56,14 @@
             >About</a
         >
         <a
-            href="#"
+            href="/events"
             class="block md:inline-block text-gray-50 hover:text-blue-500 px-3 py-3 border-b-2 border-blue-900 md:border-none"
-            >Pricing</a
+            >Events</a
         >
         <a
-            href="#"
+            href="/our_boxers"
             class="block md:inline-block text-gray-50 hover:text-blue-500 px-3 py-3 border-b-2 border-blue-900 md:border-none"
-            >Contact</a
+            >Our Boxers</a
         >
     </div>
 </nav>

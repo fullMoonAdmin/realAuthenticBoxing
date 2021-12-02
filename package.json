@@ -17,6 +17,8 @@
   },
   "type": "module",
   "dependencies": {
-    "@rodneylab/svelte-social-icons": "^0.0.16"
+    "@rodneylab/svelte-social-icons": "^0.0.16",
+    "bingmaps": "^2.0.3",
+    "ol": "^6.9.0"
   }
 }
