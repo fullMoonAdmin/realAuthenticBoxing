@@ -17,7 +17,9 @@
                     bgColor="#0778E8"
                 />
             </a>
-            <a href="https://facebook.com">
+            <a
+                href="https://www.facebook.com/profile.php?id=100063753182571&ref=page_internal"
+            >
                 <SocialIcons
                     alt="Facebook link"
                     network="facebook"

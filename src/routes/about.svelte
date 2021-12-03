@@ -75,10 +75,11 @@
         margin-bottom: 2rem;
     }
     .information {
-        max-width: 350px;
+        max-width: 300px;
         margin-top: 0.5em;
         font-size: small;
-        text-indent: 2em;
+        text-align: center;
+        text-indent: 1em;
     }
     .side-by-side {
         margin-top: 1rem;
