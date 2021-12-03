@@ -17,7 +17,7 @@
             boxingGoals: [
                 "Get in Shape",
                 "Win a couple Tournaments",
-                "Becone a World Champion",
+                "Become a World Champion",
             ],
         },
         {
