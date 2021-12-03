@@ -1,4 +1,4 @@
-<a href="https://www.dafk.net/what/">
+<a href="https://www.example.com">
     <button class="  text-gray-50 font-bold py-2 px-4 rounded">
         Purchase Tickets
     </button>
