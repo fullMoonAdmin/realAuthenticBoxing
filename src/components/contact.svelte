@@ -2,7 +2,10 @@
     <hr />
     <h2 id="contact-info">
         AUTHENTIC BOXING CLUB <br /> 1308 W. 11TH ST.<br /> KANSAS CITY MO.
-        64101 <br /> (816)695-9171
+        64101 <br />
+        <span id="phone-number">
+            <a href="tel:+18166959171">(816)695-9171</a>
+        </span>
     </h2>
 </div>
 
@@ -22,5 +25,8 @@
         margin: 1em;
         width: 300px;
         color: gray;
+    }
+    #phone-number {
+        color: blue;
     }
 </style>
