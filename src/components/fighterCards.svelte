@@ -121,7 +121,6 @@
 </script>
 
 <section>
-    <h1>Our Boxers</h1>
     <h2>Amature</h2>
     {#each amatureFighterArr as amature (amature.id)}
         <div class="fighter-card">
