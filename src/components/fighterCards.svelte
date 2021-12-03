@@ -243,7 +243,7 @@
     .fighter-card {
         margin: 10px;
         width: 325px;
-        height: 850px;
+        height: fit-content;
         color: white;
         background-color: rgba(128, 128, 128, 0.425);
         border-radius: 4px;
