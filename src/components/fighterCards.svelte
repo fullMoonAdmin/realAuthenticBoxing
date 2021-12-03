@@ -33,7 +33,7 @@
             favMovie: null,
             threeWords: "Dedicated, Hard Worker, and Funny",
             favQuote: "Shoulders back, chin up.",
-            boxingGoals: ["Becone a World Champion"],
+            boxingGoals: ["Become a World Champion"],
         },
     ];
     const professionalFighterArr = [
@@ -114,7 +114,7 @@
             favSong: null,
             favMovie: null,
             threeWords: "Explosive, Energetic, and Fearless",
-            favQuote: "Ksy's the limit, push hard, play hard, and go far",
+            favQuote: "Sky's the limit, push hard, play hard, and go far",
             boxingGoals: ["To be the best fighter I can be"],
         },
     ];
@@ -152,6 +152,9 @@
                     Favorite Song: {amature.favSong}
                 </li>
                 <li>
+                    Favorite Movie: {amature.favMovie}
+                </li>
+                <li>
                     Three Descriptive Words: {amature.threeWords}
                 </li>
                 <li>
@@ -171,6 +174,8 @@
         </div>
     {/each}
 </section>
+<br />
+<br />
 <section>
     <h2>Professional</h2>
     {#each professionalFighterArr as pro (pro.id)}
@@ -203,6 +208,9 @@
                     Favorite Song: {pro.favSong}
                 </li>
                 <li>
+                    Favorite Movie: {pro.favMovie}
+                </li>
+                <li>
                     Three Descriptive Words: {pro.threeWords}
                 </li>
                 <li>
@@ -223,17 +231,19 @@
 
     section {
         font-family: "Alfa Slab One", cursive;
+        font-family: "Alfa Slab One", cursive;
     }
     h2 {
         font-size: x-large;
     }
-    h1 {
-        font-size: 45px;
+    img {
+        border-radius: 4px;
+        margin-bottom: 10px;
     }
     .fighter-card {
         margin: 10px;
         width: 325px;
-        height: 800px;
+        height: 850px;
         color: white;
         background-color: rgba(128, 128, 128, 0.425);
         border-radius: 4px;
