@@ -24,7 +24,7 @@
                 id="coach"
                 src="larry.jpeg"
                 alt="coach Larry Edgar"
-                width="220px"
+                width="230px"
                 marg
             />
             <p id="coach-info">
@@ -71,6 +71,8 @@
         margin-top: 1rem;
         text-align: center;
         font-size: large;
+        max-width: 350px;
+        margin-bottom: 2rem;
     }
     .information {
         max-width: 350px;
@@ -79,6 +81,7 @@
         text-indent: 2em;
     }
     .side-by-side {
+        margin-top: 1rem;
         padding: 1em;
         display: flex;
         flex-direction: row;
@@ -91,7 +94,7 @@
         text-indent: 2em;
     }
     #coach {
-        width: 275px;
+        width: 305px;
         border-radius: 4px;
     }
 </style>
