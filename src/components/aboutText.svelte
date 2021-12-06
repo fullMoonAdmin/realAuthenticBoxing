@@ -1,7 +1,11 @@
-<h1>hello</h1>
+<script>
+    const users = [
+        { name: "Benny", favColor: "green" },
+        { name: "Orange", favColor: null },
+    ];
+</script>
 
-<style>
-    h1 {
-        color: green;
-    }
-</style>
+{#each users.filter((u) => u !== null) as user}
+    <li>{user.name}</li>
+    <li>{user.favColor}</li>
+{/each}

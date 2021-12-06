@@ -120,64 +120,86 @@
     ];
 </script>
 
+<h2>Amature</h2>
 <section>
-    <h2>Amature</h2>
-    {#each amatureFighterArr as amature (amature.id)}
+    {#each amatureFighterArr.filter((u) => u !== null) as amature}
         <div class="fighter-card">
             <ul>
-                <li>
-                    <img src={amature.imageUrl} alt={amature.name} />
-                </li>
-                <li>
-                    Name: {amature.name}
-                </li>
-
-                <li>
-                    Ring Name: {amature.ringName}
-                </li>
-
-                <li>
-                    Date of Birth: {amature.dob}
-                </li>
-                <li>
-                    Weight Class: {amature.weightClass}
-                </li>
-                <li>
-                    Hometown: {amature.homeTown}
-                </li>
-                <li>
-                    Favorite Color: {amature.favColor}
-                </li>
-                <li>
-                    Favorite Song: {amature.favSong}
-                </li>
-                <li>
-                    Favorite Movie: {amature.favMovie}
-                </li>
-                <li>
-                    Three Descriptive Words: {amature.threeWords}
-                </li>
-                <li>
-                    Favorite Quote: {amature.favQuote}
-                </li>
-                <li>
-                    <ul>
-                        Goals:
-                        {#each amature.boxingGoals as goals}
-                            <li>
-                                {goals}
-                            </li>
-                        {/each}
-                    </ul>
-                </li>
+                {#if amature.imageUrl}
+                    <li>
+                        <img src={amature.imageUrl} alt={amature.name} />
+                    </li>
+                {/if}
+                {#if amature.name}
+                    <li>
+                        Name: {amature.name}
+                    </li>
+                {/if}
+                {#if amature.ringName}
+                    <li>
+                        Ring Name: {amature.ringName}
+                    </li>
+                {/if}
+                {#if amature.dob}
+                    <li>
+                        Date of Birth: {amature.dob}
+                    </li>
+                {/if}
+                {#if amature.weightClass}
+                    <li>
+                        Weight Class: {amature.weightClass}
+                    </li>
+                {/if}
+                {#if amature.homeTown}
+                    <li>
+                        Hometown: {amature.homeTown}
+                    </li>
+                {/if}
+                {#if amature.favColor}
+                    <li>
+                        Favorite Color: {amature.favColor}
+                    </li>
+                {/if}
+                {#if amature.favSong}
+                    <li>
+                        Favorite Song: {amature.favSong}
+                    </li>
+                {/if}
+                {#if amature.favMovie}
+                    <li>
+                        Favorite Movie: {amature.favMovie}
+                    </li>
+                {/if}
+                {#if amature.threeWords}
+                    <li>
+                        Three Descriptive Words: {amature.threeWords}
+                    </li>
+                {/if}
+                {#if amature.favQuote}
+                    <li>
+                        Favorite Quote: {amature.favQuote}
+                    </li>
+                {/if}
+                {#if amature.boxingGoals}
+                    <li>
+                        <ul>
+                            Goals:
+                            {#each amature.boxingGoals as goals}
+                                <li>
+                                    {goals}
+                                </li>
+                            {/each}
+                        </ul>
+                    </li>
+                {/if}
             </ul>
         </div>
     {/each}
 </section>
 <br />
 <br />
+<h2>Professional</h2>
 <section>
-    <h2>Professional</h2>
     {#each professionalFighterArr as pro (pro.id)}
         <div class="fighter-card">
             <ul>
@@ -216,7 +238,18 @@
                 <li>
                     Favorite Quote: {pro.favQuote}
                 </li>
-                <li />
+                {#if pro.boxingGoals}
+                    <li>
+                        <ul>
+                            Goals:
+                            {#each pro.boxingGoals as goals}
+                                <li>
+                                    {goals}
+                                </li>
+                            {/each}
+                        </ul>
+                    </li>
+                {/if}
             </ul>
         </div>
     {/each}
@@ -231,10 +264,18 @@
 
     section {
         font-family: "Alfa Slab One", cursive;
-        font-family: "Alfa Slab One", cursive;
+
+        max-width: 700px;
+        display: flex;
+        flex-wrap: wrap;
+
+        justify-content: center;
     }
     h2 {
-        font-size: x-large;
+        font-size: xx-large;
+        position: inherit;
+        text-align: left;
+        font-family: "Alfa Slab One", cursive;
     }
     img {
         border-radius: 4px;

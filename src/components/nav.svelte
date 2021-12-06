@@ -25,19 +25,87 @@
     <!-- hamburger -->
     <div class="flex md:hidden">
         <button id="hamburger">
-            <img
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                width="34"
+                height="34"
                 class="toggle block"
-                src="https://img.icons8.com/fluent-systems-regular/2x/menu-squared-2.png"
-                width="40"
-                height="40"
-                alt=""
-            />
+                viewBox="0 0 172 172"
+                style=" fill:#000000;"
+                ><g transform="translate(4.988,4.988) scale(0.942,0.942)"
+                    ><g
+                        fill="none"
+                        fill-rule="nonzero"
+                        stroke="none"
+                        stroke-width="none"
+                        stroke-linecap="butt"
+                        stroke-linejoin="none"
+                        stroke-miterlimit="10"
+                        stroke-dasharray=""
+                        stroke-dashoffset="0"
+                        font-family="none"
+                        font-weight="none"
+                        font-size="none"
+                        text-anchor="none"
+                        style="mix-blend-mode: normal"
+                        ><g
+                            fill="#607d8b"
+                            stroke="#cccccc"
+                            stroke-width="10"
+                            stroke-linejoin="round"
+                            ><g
+                                ><path
+                                    d="M150.5,39.41667v7.16667c0,5.934 -4.816,10.75 -10.75,10.75h-107.5c-5.934,0 -10.75,-4.816 -10.75,-10.75v-7.16667c0,-5.934 4.816,-10.75 10.75,-10.75h107.5c5.934,0 10.75,4.816 10.75,10.75z"
+                                /><path
+                                    d="M150.5,82.41667v7.16667c0,5.934 -4.816,10.75 -10.75,10.75h-107.5c-5.934,0 -10.75,-4.816 -10.75,-10.75v-7.16667c0,-5.934 4.816,-10.75 10.75,-10.75h107.5c5.934,0 10.75,4.816 10.75,10.75z"
+                                /><path
+                                    d="M150.5,125.41667v7.16667c0,5.934 -4.816,10.75 -10.75,10.75h-107.5c-5.934,0 -10.75,-4.816 -10.75,-10.75v-7.16667c0,-5.934 4.816,-10.75 10.75,-10.75h107.5c5.934,0 10.75,4.816 10.75,10.75z"
+                                /></g
+                            ></g
+                        ><path
+                            d="M0,172v-172h172v172z"
+                            fill="none"
+                            stroke="none"
+                            stroke-width="1"
+                            stroke-linejoin="miter"
+                        /><g
+                            fill="#cccccc"
+                            stroke="none"
+                            stroke-width="1"
+                            stroke-linejoin="miter"
+                            ><g
+                                ><path
+                                    d="M139.75,28.66667h-107.5c-5.934,0 -10.75,4.816 -10.75,10.75v7.16667c0,5.934 4.816,10.75 10.75,10.75h107.5c5.934,0 10.75,-4.816 10.75,-10.75v-7.16667c0,-5.934 -4.816,-10.75 -10.75,-10.75z"
+                                /><path
+                                    d="M139.75,71.66667h-107.5c-5.934,0 -10.75,4.816 -10.75,10.75v7.16667c0,5.934 4.816,10.75 10.75,10.75h107.5c5.934,0 10.75,-4.816 10.75,-10.75v-7.16667c0,-5.934 -4.816,-10.75 -10.75,-10.75z"
+                                /><path
+                                    d="M139.75,114.66667h-107.5c-5.934,0 -10.75,4.816 -10.75,10.75v7.16667c0,5.934 4.816,10.75 10.75,10.75h107.5c5.934,0 10.75,-4.816 10.75,-10.75v-7.16667c0,-5.934 -4.816,-10.75 -10.75,-10.75z"
+                                /></g
+                            ></g
+                        ><path
+                            d=""
+                            fill="none"
+                            stroke="none"
+                            stroke-width="1"
+                            stroke-linejoin="miter"
+                        /><path
+                            d=""
+                            fill="none"
+                            stroke="none"
+                            stroke-width="1"
+                            stroke-linejoin="miter"
+                        /></g
+                    ></g
+                ></svg
+            >
             <img
+                src="https://img.icons8.com/carbon-copy/100/000000/delete-sign.png"
+                alt=""
                 class="toggle hidden"
-                src="https://img.icons8.com/fluent-systems-regular/2x/close-window.png"
                 width="40"
                 height="40"
-                alt=""
             />
         </button>
     </div>

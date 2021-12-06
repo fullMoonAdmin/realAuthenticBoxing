@@ -5,6 +5,7 @@
 
 <div class="flex-area">
     <h1>Our Boxers</h1>
+    <hr />
     <FighterCards />
     <Contact />
 </div>
@@ -14,7 +15,7 @@
     h1 {
         font-family: "Alfa Slab One", cursive;
         font-size: 45px;
-        margin: 10px;
+        margin: 20px;
     }
     .flex-area {
         display: flex;
@@ -23,5 +24,10 @@
         align-items: center;
         margin-top: 25px;
         margin-bottom: 45px;
+    }
+    hr {
+        margin: 0.5em;
+        width: 300px;
+        color: gray;
     }
 </style>
