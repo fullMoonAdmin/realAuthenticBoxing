@@ -38,11 +38,16 @@
 </footer>
 
 <style>
+    @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
     footer {
         border-top: gray 1px solid;
         position: fixed;
         width: 100vw;
         max-width: 100%;
         bottom: 0;
+        font-family: "Alfa Slab One", cursive;
+    }
+    span {
+        color: lightgray;
     }
 </style>

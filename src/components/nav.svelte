@@ -116,29 +116,39 @@
         <a
             href="/"
             class="block md:inline-block text-gray-50 hover:text-blue-500 px-3 py-3 border-b-2 border-blue-900 md:border-none"
-            >Home</a
+        >
+            <span> Home</span></a
         >
         <a
             href="/about"
             class="block md:inline-block text-gray-50 hover:text-blue-500 px-3 py-3 border-b-2 border-blue-900 md:border-none"
-            >About</a
+            ><span>About</span></a
         >
         <a
             href="/events"
             class="block md:inline-block text-gray-50 hover:text-blue-500 px-3 py-3 border-b-2 border-blue-900 md:border-none"
-            >Events</a
+        >
+            <span>Events</span></a
         >
         <a
             href="/our_boxers"
             class="block md:inline-block text-gray-50 hover:text-blue-500 px-3 py-3 border-b-2 border-blue-900 md:border-none"
-            >Our Boxers</a
+            ><span>Our Boxers</span></a
         >
     </div>
 </nav>
 
 <style>
+    @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
     nav {
         border-bottom: gray solid 1px;
         margin-top: -15px;
+    }
+    a > * {
+        font-family: "Alfa Slab One", cursive;
+        color: lightgray;
+    }
+    a > *:hover {
+        color: blue;
     }
 </style>
