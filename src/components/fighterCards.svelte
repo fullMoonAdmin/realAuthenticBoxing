@@ -126,9 +126,11 @@
         <div class="fighter-card">
             <ul>
                 {#if amature.imageUrl}
-                    <li>
-                        <img src={amature.imageUrl} alt={amature.name} />
-                    </li>
+                    <div class="center">
+                        <li>
+                            <img src={amature.imageUrl} alt={amature.name} />
+                        </li>
+                    </div>
                 {/if}
                 {#if amature.name}
                     <li>
@@ -203,41 +205,63 @@
     {#each professionalFighterArr as pro (pro.id)}
         <div class="fighter-card">
             <ul>
-                <li>
-                    <img src={pro.imageUrl} alt={pro.name} />
-                </li>
-                <li>
-                    Name: {pro.name}
-                </li>
-
-                <li>
-                    Ring Name: {pro.ringName}
-                </li>
-
-                <li>
-                    Date of Birth: {pro.dob}
-                </li>
-                <li>
-                    Weight Class: {pro.weightClass}
-                </li>
-                <li>
-                    Hometown: {pro.homeTown}
-                </li>
-                <li>
-                    Favorite Color: {pro.favColor}
-                </li>
-                <li>
-                    Favorite Song: {pro.favSong}
-                </li>
-                <li>
-                    Favorite Movie: {pro.favMovie}
-                </li>
-                <li>
-                    Three Descriptive Words: {pro.threeWords}
-                </li>
-                <li>
-                    Favorite Quote: {pro.favQuote}
-                </li>
+                {#if pro.imageUrl}
+                    <div class="center">
+                        <li>
+                            <img src={pro.imageUrl} alt={pro.name} />
+                        </li>
+                    </div>
+                {/if}
+                {#if pro.name}
+                    <li>
+                        Name: {pro.name}
+                    </li>
+                {/if}
+                {#if pro.ringName}
+                    <li>
+                        Ring Name: {pro.ringName}
+                    </li>
+                {/if}
+                {#if pro.dob}
+                    <li>
+                        Date of Birth: {pro.dob}
+                    </li>
+                {/if}
+                {#if pro.weightClass}
+                    <li>
+                        Weight Class: {pro.weightClass}
+                    </li>
+                {/if}
+                {#if pro.homeTown}
+                    <li>
+                        Hometown: {pro.homeTown}
+                    </li>
+                {/if}
+                {#if pro.favColor}
+                    <li>
+                        Favorite Color: {pro.favColor}
+                    </li>
+                {/if}
+                {#if pro.favSong}
+                    <li>
+                        Favorite Song: {pro.favSong}
+                    </li>
+                {/if}
+                {#if pro.favMovie}
+                    <li>
+                        Favorite Movie: {pro.favMovie}
+                    </li>
+                {/if}
+                {#if pro.threeWords}
+                    <li>
+                        Three Descriptive Words: {pro.threeWords}
+                    </li>
+                {/if}
+                {#if pro.favQuote}
+                    <li>
+                        Favorite Quote: {pro.favQuote}
+                    </li>
+                {/if}
                 {#if pro.boxingGoals}
                     <li>
                         <ul>
@@ -268,7 +292,6 @@
         max-width: 700px;
         display: flex;
         flex-wrap: wrap;
-
         justify-content: center;
     }
     h2 {
@@ -280,6 +303,7 @@
     img {
         border-radius: 4px;
         margin-bottom: 10px;
+        width: 275px;
     }
     .fighter-card {
         margin: 10px;
@@ -290,8 +314,14 @@
         border-radius: 4px;
         display: flex;
         justify-content: center;
+        font-size: small;
     }
     .fighter-card > * {
         margin: 10px;
+    }
+    .center {
+        display: flex;
+        justify-content: center;
+        margin: 1em;
     }
 </style>
