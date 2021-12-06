@@ -121,6 +121,7 @@
 </script>
 
 <h2>Amature</h2>
+<hr />
 <section>
     {#each amatureFighterArr.filter((u) => u !== null) as amature}
         <div class="fighter-card">
@@ -134,58 +135,68 @@
                 {/if}
                 {#if amature.name}
                     <li>
-                        Name: {amature.name}
+                        <b><u>Name</u>:</b>
+                        {amature.name}
                     </li>
                 {/if}
                 {#if amature.ringName}
                     <li>
-                        Ring Name: {amature.ringName}
+                        <b><u>Ring Name</u>:</b>
+                        {amature.ringName}
                     </li>
                 {/if}
                 {#if amature.dob}
                     <li>
-                        Date of Birth: {amature.dob}
+                        <b><u>Date of Birth</u>:</b>
+                        {amature.dob}
                     </li>
                 {/if}
                 {#if amature.weightClass}
                     <li>
-                        Weight Class: {amature.weightClass}
+                        <b><u>Weight Class</u>:</b>
+                        {amature.weightClass}
                     </li>
                 {/if}
                 {#if amature.homeTown}
                     <li>
-                        Hometown: {amature.homeTown}
+                        <b><u>Hometown</u>:</b>
+                        {amature.homeTown}
                     </li>
                 {/if}
                 {#if amature.favColor}
                     <li>
-                        Favorite Color: {amature.favColor}
+                        <b><u>Favorite Color</u>:</b>
+                        {amature.favColor}
                     </li>
                 {/if}
                 {#if amature.favSong}
                     <li>
-                        Favorite Song: {amature.favSong}
+                        <b><u>Favorite Song</u>:</b>
+                        {amature.favSong}
                     </li>
                 {/if}
                 {#if amature.favMovie}
                     <li>
-                        Favorite Movie: {amature.favMovie}
+                        <b><u>Favorite Movie</u>:</b>
+                        {amature.favMovie}
                     </li>
                 {/if}
                 {#if amature.threeWords}
                     <li>
-                        Three Descriptive Words: {amature.threeWords}
+                        <b><u>Three Descriptive Words</u>:</b>
+                        {amature.threeWords}
                     </li>
                 {/if}
                 {#if amature.favQuote}
                     <li>
-                        Favorite Quote: {amature.favQuote}
+                        <b><u>Favorite Quote</u>:</b>
+                        {amature.favQuote}
                     </li>
                 {/if}
                 {#if amature.boxingGoals}
                     <li>
                         <ul>
-                            Goals:
+                            <b><u>Goals</u>:</b>
                             {#each amature.boxingGoals as goals}
                                 <li>
                                     {goals}
@@ -201,6 +212,7 @@
 <br />
 <br />
 <h2>Professional</h2>
+<hr />
 <section>
     {#each professionalFighterArr as pro (pro.id)}
         <div class="fighter-card">
@@ -214,58 +226,68 @@
                 {/if}
                 {#if pro.name}
                     <li>
-                        Name: {pro.name}
+                        <b><u>Name</u>:</b>
+                        {pro.name}
                     </li>
                 {/if}
                 {#if pro.ringName}
                     <li>
-                        Ring Name: {pro.ringName}
+                        <b><u>Ring Name</u>:</b>
+                        {pro.ringName}
                     </li>
                 {/if}
                 {#if pro.dob}
                     <li>
-                        Date of Birth: {pro.dob}
+                        <b><u>Date of Birth</u>:</b>
+                        {pro.dob}
                     </li>
                 {/if}
                 {#if pro.weightClass}
                     <li>
-                        Weight Class: {pro.weightClass}
+                        <b><u>Weight Class</u>:</b>
+                        {pro.weightClass}
                     </li>
                 {/if}
                 {#if pro.homeTown}
                     <li>
-                        Hometown: {pro.homeTown}
+                        <b><u>Hometown</u>:</b>
+                        {pro.homeTown}
                     </li>
                 {/if}
                 {#if pro.favColor}
                     <li>
-                        Favorite Color: {pro.favColor}
+                        <b><u>Favorite Color</u>:</b>
+                        {pro.favColor}
                     </li>
                 {/if}
                 {#if pro.favSong}
                     <li>
-                        Favorite Song: {pro.favSong}
+                        <b><u>Favorite Song</u>:</b>
+                        {pro.favSong}
                     </li>
                 {/if}
                 {#if pro.favMovie}
                     <li>
-                        Favorite Movie: {pro.favMovie}
+                        <b><u>Favorite Movie</u>:</b>
+                        {pro.favMovie}
                     </li>
                 {/if}
                 {#if pro.threeWords}
                     <li>
-                        Three Descriptive Words: {pro.threeWords}
+                        <b><u>Three Descriptive Words</u>:</b>
+                        {pro.threeWords}
                     </li>
                 {/if}
                 {#if pro.favQuote}
                     <li>
-                        Favorite Quote: {pro.favQuote}
+                        <b><u>Favorite Quote</u>:</b>
+                        {pro.favQuote}
                     </li>
                 {/if}
                 {#if pro.boxingGoals}
                     <li>
                         <ul>
-                            Goals:
+                            <b><u>Goals</u>:</b>
                             {#each pro.boxingGoals as goals}
                                 <li>
                                     {goals}
@@ -280,14 +302,15 @@
 </section>
 
 <style>
-    @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+    @import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100&display=swap");
+
     :global(body) {
         background-color: black;
         color: grey;
     }
 
     section {
-        font-family: "Alfa Slab One", cursive;
+        font-family: "Azeret Mono", monospace;
 
         max-width: 700px;
         display: flex;
@@ -296,9 +319,10 @@
     }
     h2 {
         font-size: xx-large;
-        position: inherit;
         text-align: left;
         font-family: "Alfa Slab One", cursive;
+        margin-bottom: 20px;
+        margin-top: 20px;
     }
     img {
         border-radius: 4px;
@@ -309,13 +333,21 @@
     .fighter-card {
         margin: 10px;
         width: 325px;
-        height: 700px;
+        height: 735px;
         color: white;
-        background-color: rgba(128, 128, 128, 0.425);
+        background: rgb(128, 128, 128);
+        background: linear-gradient(
+            225deg,
+            rgba(128, 128, 128, 1) 0%,
+            rgba(9, 9, 121, 0) 70%,
+            rgba(128, 128, 128, 1) 100%
+        );
         border-radius: 4px;
         display: flex;
         justify-content: center;
         font-size: small;
+        border-bottom: white 1px solid;
+        border-left: white 1px solid;
     }
     .fighter-card > * {
         margin: 10px;
@@ -324,5 +356,13 @@
         display: flex;
         justify-content: center;
         margin: 1em;
+    }
+    hr {
+        margin-top: -20px;
+        margin-bottom: 20px;
+        width: 250px;
+        color: gray;
+        background-color: gray;
+        border-color: gray;
     }
 </style>

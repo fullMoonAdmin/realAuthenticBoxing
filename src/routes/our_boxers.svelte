@@ -14,7 +14,7 @@
     @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
     h1 {
         font-family: "Alfa Slab One", cursive;
-        font-size: 45px;
+        font-size: 65px;
         margin: 20px;
     }
     .flex-area {
