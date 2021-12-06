@@ -60,7 +60,7 @@
         align-items: center;
     }
     h1 {
-        font-size: xx-large;
+        font-size: 65px;
         text-align: center;
     }
     #logo {
