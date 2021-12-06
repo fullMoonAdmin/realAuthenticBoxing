@@ -304,11 +304,12 @@
         border-radius: 4px;
         margin-bottom: 10px;
         width: 275px;
+        height: 325px;
     }
     .fighter-card {
         margin: 10px;
         width: 325px;
-        height: fit-content;
+        height: 700px;
         color: white;
         background-color: rgba(128, 128, 128, 0.425);
         border-radius: 4px;
