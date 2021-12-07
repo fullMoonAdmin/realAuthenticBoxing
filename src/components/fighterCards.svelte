@@ -329,7 +329,7 @@
         margin-bottom: 10px;
         width: 275px;
         height: 325px;
-        border: solid 2px slategrey;
+        border: solid 2px #4e5a65;
     }
     .fighter-card {
         margin: 10px;
@@ -348,6 +348,8 @@
         font-size: small;
         border-top: slategrey 2px solid;
         border-right: slategrey 2px solid;
+        border-bottom: #4e5a65 2px solid;
+        border-left: #4e5a65 2px solid;
     }
     .fighter-card > * {
         margin: 10px;
