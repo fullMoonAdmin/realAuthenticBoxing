@@ -29,10 +29,10 @@
             />
             <p id="coach-info">
                 Coach Larry Edgar and the Team are striving to become the best
-                Boxing Club in the country. Authentic Boxing Club has the
-                reputation of producing Professional boxers, Male or Female, to
+                boxing club in the country. Authentic Boxing Club has the
+                reputation of producing Professional boxers, male or female, to
                 compete at the highest level of the sport of Boxing. Authentic
-                offers Professional Training and Management.
+                offers professional training and management.
             </p>
         </div>
         <Map />

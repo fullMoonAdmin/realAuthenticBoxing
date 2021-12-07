@@ -149,6 +149,6 @@
         color: lightgray;
     }
     a > *:hover {
-        color: blue;
+        color: red;
     }
 </style>

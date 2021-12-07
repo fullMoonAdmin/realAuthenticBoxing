@@ -13,7 +13,7 @@
             favMovie: "Ford vs Ferrari",
             threeWords: "Dedicated, Athletic, and Chill",
             favQuote:
-                "I hated every minute of traning, but I said, don't quit. Suffer now and live the rest of your life a Champion.",
+                '"I hated every minute of traning, but I said, don\'t quit. Suffer now and live the rest of your life a Champion."',
             boxingGoals: [
                 "Get in Shape",
                 "Win a couple Tournaments",
@@ -32,7 +32,7 @@
             favSong: "Shine by Meek-Mill",
             favMovie: null,
             threeWords: "Dedicated, Hard Worker, and Funny",
-            favQuote: "Shoulders back, chin up.",
+            favQuote: '"Shoulders back, chin up."',
             boxingGoals: ["Become a World Champion"],
         },
     ];
@@ -50,7 +50,7 @@
             favMovie: "Enter The Dragon",
             threeWords: "Cool, Calm, and Collected",
             favQuote:
-                "There are only two tyepes of people, trained and untrained",
+                '"There are only two tyepes of people, trained and untrained"',
             boxingGoals: ["To become an undisputed World Champion"],
         },
         {
@@ -80,7 +80,7 @@
             favSong: null,
             favMovie: "End of Watch",
             threeWords: "Loyal, Dedicated and Motivated",
-            favQuote: "Never forget where you came from",
+            favQuote: '"Never forget where you came from"',
             boxingGoals: [
                 "Be the best I can be pound for pound",
                 "Become a World Champion",
@@ -99,7 +99,7 @@
             favMovie: "Friday",
             threeWords: "Lover, Fighter, and Helpful",
             favQuote:
-                "Ain't nothing but work out here, you just got to put it in",
+                '"Ain\'t nothing but work out here, you just got to put it in"',
             boxingGoals: ["To become a G.O.A.T."],
         },
         {
@@ -114,13 +114,13 @@
             favSong: null,
             favMovie: null,
             threeWords: "Explosive, Energetic, and Fearless",
-            favQuote: "Sky's the limit, push hard, play hard, and go far",
+            favQuote: '"Sky\'s the limit, push hard, play hard, and go far"',
             boxingGoals: ["To be the best fighter I can be"],
         },
     ];
 </script>
 
-<h2>Amature</h2>
+<h2>Amateure</h2>
 <hr />
 <section>
     {#each amatureFighterArr.filter((u) => u !== null) as amature}
@@ -329,6 +329,7 @@
         margin-bottom: 10px;
         width: 275px;
         height: 325px;
+        border: solid 2px slategrey;
     }
     .fighter-card {
         margin: 10px;
@@ -346,8 +347,7 @@
         display: flex;
         justify-content: center;
         font-size: small;
-        border-bottom: white 1px solid;
-        border-left: white 1px solid;
+        border: slategrey 2px solid;
     }
     .fighter-card > * {
         margin: 10px;

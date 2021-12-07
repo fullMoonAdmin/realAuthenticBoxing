@@ -27,6 +27,6 @@
         color: gray;
     }
     #phone-number {
-        color: blue;
+        color: red;
     }
 </style>
