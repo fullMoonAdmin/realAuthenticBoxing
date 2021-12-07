@@ -339,15 +339,15 @@
         background: rgb(128, 128, 128);
         background: linear-gradient(
             225deg,
-            rgba(128, 128, 128, 1) 0%,
-            rgba(9, 9, 121, 0) 70%,
+            rgba(9, 9, 121, 0) 0%,
             rgba(128, 128, 128, 1) 100%
         );
         border-radius: 4px;
         display: flex;
         justify-content: center;
         font-size: small;
-        border: slategrey 2px solid;
+        border-top: slategrey 2px solid;
+        border-right: slategrey 2px solid;
     }
     .fighter-card > * {
         margin: 10px;
