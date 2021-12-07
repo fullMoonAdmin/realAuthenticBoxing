@@ -7,18 +7,20 @@
         class="flex flex-row gap-4 justify-end bg-gradient-to-r from-black to-gray-600  "
     >
         <div class="flex flex-row justify-center gap-4 m-1">
-            <a
-                href="https://www.facebook.com/profile.php?id=100063753182571&ref=page_internal"
-            >
-                <SocialIcons
-                    alt="Facebook link"
-                    network="facebook"
-                    width="24"
-                    height="24"
-                    fgColor="#FFFFFF"
-                    bgColor="#0778E8"
-                />
-            </a>
+            <div id="container">
+                <a
+                    href="https://www.facebook.com/profile.php?id=100063753182571&ref=page_internal"
+                >
+                    <SocialIcons
+                        alt="Facebook link"
+                        network="facebook"
+                        width="24"
+                        height="24"
+                        fgColor="#FFFFFF"
+                        bgColor="#0778E8"
+                    />
+                </a>
+            </div>
             <div>
                 <span class="text-gray-50"> &copy Authentic Boxing </span>
             </div>
@@ -39,5 +41,16 @@
     }
     span {
         color: lightgray;
+    }
+    #container:hover {
+        animation: createBox 0.5s;
+    }
+    @keyframes createBox {
+        from {
+            transform: scale(1);
+        }
+        to {
+            transform: scale(1.25);
+        }
     }
 </style>
