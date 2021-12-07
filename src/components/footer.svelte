@@ -7,16 +7,6 @@
         class="flex flex-row gap-4 justify-end bg-gradient-to-r from-black to-gray-600  "
     >
         <div class="flex flex-row justify-center gap-4 m-1">
-            <a href="https://twitter.com">
-                <SocialIcons
-                    alt="Twitter link"
-                    network="twitter"
-                    width="24"
-                    height="24"
-                    fgColor="#FFFFFF"
-                    bgColor="#0778E8"
-                />
-            </a>
             <a
                 href="https://www.facebook.com/profile.php?id=100063753182571&ref=page_internal"
             >
