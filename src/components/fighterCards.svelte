@@ -329,7 +329,10 @@
         margin-bottom: 10px;
         width: 275px;
         height: 325px;
-        border: solid 2px #4e5a65;
+        border-bottom: solid 2px #4e5a65;
+        border-left: solid 2px #4e5a65;
+        border-top: solid 2px slategrey;
+        border-right: solid 2px slategray;
     }
     .fighter-card {
         margin: 10px;
