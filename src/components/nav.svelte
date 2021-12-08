@@ -111,28 +111,28 @@
     </div>
     <!-- links -->
     <div
-        class="toggle hidden md:flex w-full md:w-auto text-right text-bold mt-5 md:mt-0 border-t-2 border-blue-900 md:border-none"
+        class="toggle hidden md:flex w-full md:w-auto text-right text-bold mt-5 md:mt-0 border-t-2 border-red-900 md:border-none"
     >
         <a
             href="/"
-            class="block md:inline-block text-gray-50 hover:text-blue-500 px-3 py-3 border-b-2 border-blue-900 md:border-none"
+            class="block md:inline-block text-gray-50 hover:text-blue-500 px-3 py-3 border-b-2 border-red-900 md:border-none"
         >
             <span> Home</span></a
         >
         <a
             href="/about"
-            class="block md:inline-block text-gray-50 hover:text-blue-500 px-3 py-3 border-b-2 border-blue-900 md:border-none"
+            class="block md:inline-block text-gray-50 hover:text-blue-500 px-3 py-3 border-b-2 border-red-900 md:border-none"
             ><span>About</span></a
         >
         <a
             href="/events"
-            class="block md:inline-block text-gray-50 hover:text-blue-500 px-3 py-3 border-b-2 border-blue-900 md:border-none"
+            class="block md:inline-block text-gray-50 hover:text-blue-500 px-3 py-3 border-b-2 border-red-900 md:border-none"
         >
             <span>Events</span></a
         >
         <a
             href="/our_boxers"
-            class="block md:inline-block text-gray-50 hover:text-blue-500 px-3 py-3 border-b-2 border-blue-900 md:border-none"
+            class="block md:inline-block text-gray-50 hover:text-blue-500 px-3 py-3 border-b-2 border-red-900 md:border-none"
             ><span>Our Boxers</span></a
         >
     </div>
