@@ -3,7 +3,7 @@
 </script>
 
 <section>
-    <h1>Events</h1>
+    <h1>Past Events</h1>
     <br />
     <img src="event.jpeg" alt="event poster" />
 </section>

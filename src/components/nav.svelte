@@ -14,13 +14,14 @@
     class="flex flex-wrap items-center justify-between p-5 bg-gradient-to-r from-black to-gray-600 sticky top-0 z-50 "
 >
     <!-- logo -->
-    <a href="/">
+    <a id="logo" href="/">
         <img
             src="redGlovesPlainAltered.svg"
             alt="Authentic Logo"
             width="70"
             id="logo"
         />
+        <h1>Strike Night KC</h1>
     </a>
     <!-- hamburger -->
     <div class="flex md:hidden">
@@ -128,7 +129,7 @@
             href="/events"
             class="block md:inline-block text-gray-50 hover:text-blue-500 px-3 py-3 border-b-2 border-red-900 md:border-none"
         >
-            <span>Events</span></a
+            <span>Past Events</span></a
         >
     </div>
 </nav>
@@ -139,11 +140,18 @@
         border-bottom: gray solid 1px;
         margin-top: -15px;
     }
+    #logo {
+        display: flex;
+        flex-direction: row;
+    }
+    #logo > h1 {
+        font-size: x-large;
+    }
     a > * {
         font-family: "Alfa Slab One", cursive;
         color: lightgray;
     }
-    a > *:hover {
+    a > span:hover {
         color: red;
     }
 </style>

@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-    <title>Authentic Boxing</title>
+    <title>Strike Night</title>
 </svelte:head>
 
 <Hero />
@@ -16,6 +16,9 @@
 </main>
 
 <style>
+    :global(body) {
+        background-color: black;
+    }
     main {
         background-color: black;
         margin-bottom: 25px;
