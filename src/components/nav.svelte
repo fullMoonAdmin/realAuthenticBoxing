@@ -16,7 +16,7 @@
     <!-- logo -->
     <a href="/">
         <img
-            src="authenticLogo.svg"
+            src="redGlovesPlainAltered.svg"
             alt="Authentic Logo"
             width="70"
             id="logo"
@@ -129,11 +129,6 @@
             class="block md:inline-block text-gray-50 hover:text-blue-500 px-3 py-3 border-b-2 border-red-900 md:border-none"
         >
             <span>Events</span></a
-        >
-        <a
-            href="/our_boxers"
-            class="block md:inline-block text-gray-50 hover:text-blue-500 px-3 py-3 border-b-2 border-red-900 md:border-none"
-            ><span>Our Boxers</span></a
         >
     </div>
 </nav>
