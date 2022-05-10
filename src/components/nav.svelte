@@ -27,14 +27,14 @@
         <button id="hamburger">
             <img
                 class="toggle block"
-                src="https://img.icons8.com/fluent-systems-regular/2x/menu-squared-2.png"
+                src="hamburger.png"
                 width="40"
                 height="40"
                 alt=""
             />
             <img
                 class="toggle hidden"
-                src="https://img.icons8.com/fluent-systems-regular/2x/close-window.png"
+                src="x.png"
                 width="40"
                 height="40"
                 alt=""
