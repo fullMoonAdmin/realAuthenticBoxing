@@ -21,7 +21,7 @@
             width="70"
             id="logo"
         />
-        <h1>Strike Night KC</h1>
+        <h1 id="site-title">Authentic Boxing Club</h1>
     </a>
     <!-- hamburger -->
     <div class="flex md:hidden">
@@ -144,6 +144,9 @@
     nav {
         border-bottom: gray solid 1px;
         margin-top: -15px;
+    }
+    #site-title {
+        margin-left: 20px;
     }
     #logo {
         display: flex;
