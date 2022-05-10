@@ -189,7 +189,7 @@
                 {/if}
                 {#if amature.favQuote}
                     <li>
-                        <b><u>Words of Wisdom</u>:</b>
+                        <b><u>Favorite Quote</u>:</b>
                         {amature.favQuote}
                     </li>
                 {/if}
@@ -198,7 +198,7 @@
                         <ul>
                             <b><u>Goals</u>:</b>
                             {#each amature.boxingGoals as goals}
-                                <li class="goals">
+                                <li>
                                     {goals}
                                 </li>
                             {/each}
@@ -280,7 +280,7 @@
                 {/if}
                 {#if pro.favQuote}
                     <li>
-                        <b><u>Words of Wisdom</u>:</b>
+                        <b><u>Favorite Quote</u>:</b>
                         {pro.favQuote}
                     </li>
                 {/if}
@@ -289,7 +289,7 @@
                         <ul>
                             <b><u>Goals</u>:</b>
                             {#each pro.boxingGoals as goals}
-                                <li class="goals">
+                                <li>
                                     {goals}
                                 </li>
                             {/each}
@@ -343,7 +343,7 @@
         background: linear-gradient(
             225deg,
             rgba(9, 9, 121, 0) 0%,
-            rgba(128, 128, 128, 0.705) 100%
+            rgba(128, 128, 128, 1) 100%
         );
         box-shadow: rgba(255, 255, 255, 0.281) 0px 6px 24px 0px,
             rgba(255, 255, 255, 0.281) 0px 0px 0px 1px;
@@ -371,9 +371,5 @@
         color: gray;
         background-color: gray;
         border-color: gray;
-    }
-    .goals {
-        list-style-type: disc;
-        list-style-position: inside;
     }
 </style>
