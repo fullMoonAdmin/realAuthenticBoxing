@@ -345,8 +345,6 @@
             rgba(9, 9, 121, 0) 0%,
             rgba(128, 128, 128, 1) 100%
         );
-        box-shadow: rgba(255, 255, 255, 0.281) 0px 6px 24px 0px,
-            rgba(255, 255, 255, 0.281) 0px 0px 0px 1px;
         border-radius: 4px;
         display: flex;
         justify-content: center;
