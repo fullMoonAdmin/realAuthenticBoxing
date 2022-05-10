@@ -1,4 +1,4 @@
-<a href="https://www.example.com">
+<a href="https://www.tix.com/ticket-sales/authenticboxing/6932">
     <button class="  text-gray-50 font-bold py-2 px-4 rounded">
         Purchase Tickets
     </button>
