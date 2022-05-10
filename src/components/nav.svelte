@@ -14,127 +14,56 @@
     class="flex flex-wrap items-center justify-between p-5 bg-gradient-to-r from-black to-gray-600 sticky top-0 z-50 "
 >
     <!-- logo -->
-    <a id="logo" href="/">
+    <a href="/">
         <img
             src="authenticLogo.svg"
             alt="Authentic Logo"
-            width="70"
+            width="90"
             id="logo"
         />
-        <h1 id="site-title">Authentic Boxing Club</h1>
     </a>
     <!-- hamburger -->
     <div class="flex md:hidden">
         <button id="hamburger">
-            <svg
-                xmlns="http://www.w3.org/2000/svg"
-                x="0px"
-                y="0px"
-                width="34"
-                height="34"
-                class="toggle block"
-                viewBox="0 0 172 172"
-                style=" fill:#000000;"
-                ><g transform="translate(4.988,4.988) scale(0.942,0.942)"
-                    ><g
-                        fill="none"
-                        fill-rule="nonzero"
-                        stroke="none"
-                        stroke-width="none"
-                        stroke-linecap="butt"
-                        stroke-linejoin="none"
-                        stroke-miterlimit="10"
-                        stroke-dasharray=""
-                        stroke-dashoffset="0"
-                        font-family="none"
-                        font-weight="none"
-                        font-size="none"
-                        text-anchor="none"
-                        style="mix-blend-mode: normal"
-                        ><g
-                            fill="#607d8b"
-                            stroke="#cccccc"
-                            stroke-width="10"
-                            stroke-linejoin="round"
-                            ><g
-                                ><path
-                                    d="M150.5,39.41667v7.16667c0,5.934 -4.816,10.75 -10.75,10.75h-107.5c-5.934,0 -10.75,-4.816 -10.75,-10.75v-7.16667c0,-5.934 4.816,-10.75 10.75,-10.75h107.5c5.934,0 10.75,4.816 10.75,10.75z"
-                                /><path
-                                    d="M150.5,82.41667v7.16667c0,5.934 -4.816,10.75 -10.75,10.75h-107.5c-5.934,0 -10.75,-4.816 -10.75,-10.75v-7.16667c0,-5.934 4.816,-10.75 10.75,-10.75h107.5c5.934,0 10.75,4.816 10.75,10.75z"
-                                /><path
-                                    d="M150.5,125.41667v7.16667c0,5.934 -4.816,10.75 -10.75,10.75h-107.5c-5.934,0 -10.75,-4.816 -10.75,-10.75v-7.16667c0,-5.934 4.816,-10.75 10.75,-10.75h107.5c5.934,0 10.75,4.816 10.75,10.75z"
-                                /></g
-                            ></g
-                        ><path
-                            d="M0,172v-172h172v172z"
-                            fill="none"
-                            stroke="none"
-                            stroke-width="1"
-                            stroke-linejoin="miter"
-                        /><g
-                            fill="#cccccc"
-                            stroke="none"
-                            stroke-width="1"
-                            stroke-linejoin="miter"
-                            ><g
-                                ><path
-                                    d="M139.75,28.66667h-107.5c-5.934,0 -10.75,4.816 -10.75,10.75v7.16667c0,5.934 4.816,10.75 10.75,10.75h107.5c5.934,0 10.75,-4.816 10.75,-10.75v-7.16667c0,-5.934 -4.816,-10.75 -10.75,-10.75z"
-                                /><path
-                                    d="M139.75,71.66667h-107.5c-5.934,0 -10.75,4.816 -10.75,10.75v7.16667c0,5.934 4.816,10.75 10.75,10.75h107.5c5.934,0 10.75,-4.816 10.75,-10.75v-7.16667c0,-5.934 -4.816,-10.75 -10.75,-10.75z"
-                                /><path
-                                    d="M139.75,114.66667h-107.5c-5.934,0 -10.75,4.816 -10.75,10.75v7.16667c0,5.934 4.816,10.75 10.75,10.75h107.5c5.934,0 10.75,-4.816 10.75,-10.75v-7.16667c0,-5.934 -4.816,-10.75 -10.75,-10.75z"
-                                /></g
-                            ></g
-                        ><path
-                            d=""
-                            fill="none"
-                            stroke="none"
-                            stroke-width="1"
-                            stroke-linejoin="miter"
-                        /><path
-                            d=""
-                            fill="none"
-                            stroke="none"
-                            stroke-width="1"
-                            stroke-linejoin="miter"
-                        /></g
-                    ></g
-                ></svg
-            >
             <img
-                src="https://img.icons8.com/carbon-copy/100/000000/delete-sign.png"
-                alt=""
-                class="toggle hidden"
+                class="toggle block"
+                src="https://img.icons8.com/fluent-systems-regular/2x/menu-squared-2.png"
                 width="40"
                 height="40"
+                alt=""
+            />
+            <img
+                class="toggle hidden"
+                src="https://img.icons8.com/fluent-systems-regular/2x/close-window.png"
+                width="40"
+                height="40"
+                alt=""
             />
         </button>
     </div>
     <!-- links -->
     <div
-        class="toggle hidden md:flex w-full md:w-auto text-right text-bold mt-5 md:mt-0 border-t-2 border-red-900 md:border-none"
+        class="toggle hidden md:flex w-full md:w-auto text-right text-bold mt-5 md:mt-0 border-t-2 border-blue-900 md:border-none"
     >
         <a
             href="/"
-            class="block md:inline-block text-gray-50 hover:text-blue-500 px-3 py-3 border-b-2 border-red-900 md:border-none"
-        >
-            <span> Home</span></a
+            class="block md:inline-block text-gray-50 hover:text-blue-500 px-3 py-3 border-b-2 border-blue-900 md:border-none"
+            >Home</a
         >
         <a
             href="/about"
-            class="block md:inline-block text-gray-50 hover:text-blue-500 px-3 py-3 border-b-2 border-red-900 md:border-none"
-            ><span>About</span></a
+            class="block md:inline-block text-gray-50 hover:text-blue-500 px-3 py-3 border-b-2 border-blue-900 md:border-none"
+            >About</a
         >
         <a
             href="/events"
-            class="block md:inline-block text-gray-50 hover:text-blue-500 px-3 py-3 border-b-2 border-red-900 md:border-none"
-        >
-            <span>Past Events</span></a
+            class="block md:inline-block text-gray-50 hover:text-blue-500 px-3 py-3 border-b-2 border-blue-900 md:border-none"
+            >Events</a
         >
         <a
             href="/our_boxers"
-            class="block md:inline-block text-gray-50 hover:text-blue-500 px-3 py-3 border-b-2 border-red-900 md:border-none"
-            ><span>Our Boxers</span></a
+            class="block md:inline-block text-gray-50 hover:text-blue-500 px-3 py-3 border-b-2 border-blue-900 md:border-none"
+            >Our Boxers</a
         >
     </div>
 </nav>
@@ -145,21 +74,8 @@
         border-bottom: gray solid 1px;
         margin-top: -15px;
     }
-    #site-title {
-        margin-left: 20px;
-    }
-    #logo {
-        display: flex;
-        flex-direction: row;
-    }
-    #logo > h1 {
-        font-size: x-large;
-    }
-    a > * {
+    a {
         font-family: "Alfa Slab One", cursive;
-        color: lightgray;
-    }
-    a > span:hover {
-        color: red;
+        font-size: 1.5em;
     }
 </style>
