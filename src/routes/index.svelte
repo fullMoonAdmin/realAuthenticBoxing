@@ -12,7 +12,7 @@
 <main>
     <div class="flex-container">
         <h1>Upcoming Events</h1>
-        <img src="may2872022.jpeg" alt="strike night poster" />
+        <img src="may2872022.jpeg" alt="strike night poster" id="fightCard" />
     </div>
 
     <div class="flex-container">
@@ -45,5 +45,8 @@
         justify-content: center;
         flex-direction: column;
         align-items: center;
+    }
+    #fightCard {
+        border-radius: 4px;
     }
 </style>
