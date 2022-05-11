@@ -18,11 +18,7 @@
             muted
             loop
         />-->
-        <img
-            src="banner.jpg"
-            alt="boxing"
-            class="min-w-full min-h-full absolute object-cover"
-        />
+        <img src="banner.jpg" alt="boxing" class="min-w-full min-h-full " />
     </div>
 
     <div class="video-content">
