@@ -8,11 +8,15 @@
   <h1>Authentic Boxing</h1>
   <div class="flex-container">
     <h2>The Venue</h2>
-    <img src="gymFront.JPG" id="gym" alt="" />
+    <img src="gymFront.JPG" id="gym" alt="gym building" />
     <Map />
     <h2 id="seat">Seat Map</h2>
-    <img src="seatingChartPlain.svg" id="seatingPlan" alt="" />
-    <h2>Consessions Menu</h2>
+    <img
+      src="seatingChartPlain.svg"
+      id="seatingPlan"
+      alt="seat map for venue"
+    />
+    <h2>Concessions Menu</h2>
 
     <Contact />
   </div>
