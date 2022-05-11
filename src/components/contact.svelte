@@ -1,10 +1,15 @@
 <div id="contact-container">
     <hr />
     <h2 id="contact-info">
-        AUTHENTIC BOXING CLUB <br /> 1308 W. 11TH ST.<br /> KANSAS CITY MO.
-        64101 <br />
+        AUTHENTIC BOXING CLUB <br />
+        1308 W. 11TH ST.<br />
+        KANSAS CITY MO. 64101 <br />
+        GYM HOURS: <br />
+        MON - THU: 5 pm - 8 pm <br />
+        FRI: 5 pm - 7 pm <br />
+
         <span id="phone-number">
-            <a class="grow" href="tel:+18166959171">(816)695-9171</a>
+            <a class="grow" href="tel:+18166959171">Phone: (816)695-9171</a>
         </span>
     </h2>
 </div>
