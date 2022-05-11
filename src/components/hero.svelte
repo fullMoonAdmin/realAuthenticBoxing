@@ -9,7 +9,7 @@
         class="video-docker absolute top-0 left-0 w-full h-full overflow-hidden "
         id="docker"
     >
-        <video
+        <!--<video
             poster=""
             class="min-w-full min-h-full absolute object-cover"
             src="shortBoxingCinematic.mp4"
@@ -17,7 +17,8 @@
             autoplay
             muted
             loop
-        />
+        />-->
+        <img src="banner.jpg" alt="" />
     </div>
 
     <div class="video-content">

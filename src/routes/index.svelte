@@ -33,6 +33,7 @@
     }
     h1 {
         font-size: 40px;
+        margin-top: 1em;
         margin-bottom: 1em;
     }
     img {
