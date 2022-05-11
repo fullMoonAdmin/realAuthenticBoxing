@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-    <title>Strike Night</title>
+    <title>Authentic Boxing</title>
 </svelte:head>
 
 <Hero />
