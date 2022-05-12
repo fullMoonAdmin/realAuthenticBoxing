@@ -1,9 +1,15 @@
 <script>
+    import AwardsGallary from "../components/awardsGallary.svelte";
     import Contact from "../components/contact.svelte";
     import FighterCards from "../components/fighterCards.svelte";
 </script>
 
 <div class="flex-area">
+    <h1>Awards</h1>
+    <hr />
+    <div id="gallary-container">
+        <AwardsGallary />
+    </div>
     <h1>Our Boxers</h1>
     <hr />
     <FighterCards />
@@ -11,7 +17,6 @@
 </div>
 
 <style>
-    @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
     h1 {
         font-family: "Alfa Slab One", cursive;
         font-size: 65px;
@@ -24,6 +29,10 @@
         align-items: center;
         margin-top: 25px;
         margin-bottom: 45px;
+    }
+    #gallary-container {
+        max-width: 70rem;
+        margin: 1rem;
     }
     hr {
         margin: 0.5em;

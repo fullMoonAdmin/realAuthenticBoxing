@@ -11,11 +11,7 @@
     <img src="gymFront.JPG" id="gym" alt="gym building" />
     <Map />
     <h2 id="seat">Seat Map</h2>
-    <img
-      src="seatingChartPlain.svg"
-      id="seatingPlan"
-      alt="seat map for venue"
-    />
+    <img src="seatingChart.svg" id="seatingPlan" alt="seat map for venue" />
     <h2>Concessions Menu</h2>
 
     <Contact />
@@ -28,6 +24,7 @@
     margin-bottom: 70px;
     color: gray;
     font-family: "Alfa Slab One", cursive;
+    background-color: black;
   }
   h1 {
     font-size: 50px;
@@ -46,10 +43,10 @@
     border: solid 2px gray;
   }
   #seatingPlan {
-    width: 60rem;
+    width: 75rem;
     border-radius: 4px;
     border: solid 2px gray;
-    background-color: antiquewhite;
+    background-color: hsla(100, 100%, 100%, 50%);
     margin: 1rem;
   }
   .flex-container {

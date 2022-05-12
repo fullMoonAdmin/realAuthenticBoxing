@@ -37,7 +37,7 @@
         margin-bottom: 1em;
     }
     img {
-        width: 60rem;
+        width: 70rem;
     }
 
     .flex-container {
