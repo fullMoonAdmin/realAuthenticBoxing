@@ -1,5 +1,6 @@
 <script>
     import { onMount } from "svelte";
+    import { page } from "$app/stores";
     onMount(() => {
         document.getElementById("hamburger").onclick = function toggleMenu() {
             const navToggle = document.getElementsByClassName("toggle");
@@ -48,23 +49,31 @@
         <a
             href="/"
             class="block md:inline-block text-gray-50 hover:text-blue-500 px-3 py-3 border-b-2 border-white-900 md:border-none"
-            >Home</a
+            class:active={$page.path === "/"}
         >
+            Home
+        </a>
         <a
             href="/venue"
             class="block md:inline-block text-gray-50 hover:text-blue-500 px-3 py-3 border-b-2 border-white-900 md:border-none"
-            >Venue</a
+            class:active={$page.path === "/venue"}
         >
+            Venue
+        </a>
         <a
             href="/our_boxers"
             class="block md:inline-block text-gray-50 hover:text-blue-500 px-3 py-3 border-b-2 border-white-900 md:border-none"
-            >Our Boxers</a
+            class:active={$page.path === "/our_boxers"}
         >
+            Our Boxers
+        </a>
         <a
             href="/about"
             class="block md:inline-block text-gray-50 hover:text-blue-500 px-3 py-3 border-b-2 border-white-900 md:border-none"
-            >About</a
+            class:active={$page.path === "/about"}
         >
+            About
+        </a>
     </div>
 </nav>
 
@@ -76,5 +85,8 @@
     a {
         font-family: "Alfa Slab One", cursive;
         font-size: 1.5em;
+    }
+    .active {
+        text-decoration: underline;
     }
 </style>
