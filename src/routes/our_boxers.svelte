@@ -6,12 +6,10 @@
 
 <div class="flex-area">
     <h1>Awards</h1>
-    <hr />
     <div id="gallary-container">
         <AwardsGallary />
     </div>
     <h1>Our Boxers</h1>
-    <hr />
     <FighterCards />
     <Contact />
 </div>
@@ -33,10 +31,5 @@
     #gallary-container {
         max-width: 70rem;
         margin: 1rem;
-    }
-    hr {
-        margin: 0.5em;
-        width: 300px;
-        color: gray;
     }
 </style>
