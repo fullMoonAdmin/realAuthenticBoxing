@@ -43,26 +43,26 @@
     </div>
     <!-- links -->
     <div
-        class="toggle hidden md:flex w-full md:w-auto text-right text-bold mt-5 md:mt-0 border-t-2 border-blue-900 md:border-none"
+        class="toggle hidden md:flex w-full md:w-auto text-right text-bold mt-5 md:mt-0 border-t-2 border-white-900 md:border-none"
     >
         <a
             href="/"
-            class="block md:inline-block text-gray-50 hover:text-blue-500 px-3 py-3 border-b-2 border-blue-900 md:border-none"
+            class="block md:inline-block text-gray-50 hover:text-blue-500 px-3 py-3 border-b-2 border-white-900 md:border-none"
             >Home</a
         >
         <a
             href="/venue"
-            class="block md:inline-block text-gray-50 hover:text-blue-500 px-3 py-3 border-b-2 border-blue-900 md:border-none"
+            class="block md:inline-block text-gray-50 hover:text-blue-500 px-3 py-3 border-b-2 border-white-900 md:border-none"
             >Venue</a
         >
         <a
             href="/our_boxers"
-            class="block md:inline-block text-gray-50 hover:text-blue-500 px-3 py-3 border-b-2 border-blue-900 md:border-none"
+            class="block md:inline-block text-gray-50 hover:text-blue-500 px-3 py-3 border-b-2 border-white-900 md:border-none"
             >Our Boxers</a
         >
         <a
             href="/about"
-            class="block md:inline-block text-gray-50 hover:text-blue-500 px-3 py-3 border-b-2 border-blue-900 md:border-none"
+            class="block md:inline-block text-gray-50 hover:text-blue-500 px-3 py-3 border-b-2 border-white-900 md:border-none"
             >About</a
         >
     </div>
@@ -71,7 +71,7 @@
 <style>
     nav {
         border-bottom: gray solid 1px;
-        margin-top: -15px;
+        margin-top: -16px;
     }
     a {
         font-family: "Alfa Slab One", cursive;
