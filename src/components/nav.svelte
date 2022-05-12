@@ -48,14 +48,14 @@
     >
         <a
             href="/"
-            class="block md:inline-block text-gray-50 hover:text-red-500 px-3 py-3 border-b-2 border-white-900 md:border-none"
+            class="block md:inline-block text-gray-50 hover:text-red-600 px-3 py-3 border-b-2 border-white-900 md:border-none"
             class:active={$page.path === "/"}
         >
             Home
         </a>
         <a
             href="/venue"
-            class="block md:inline-block text-gray-50 hover:text-red-500 px-3 py-3 border-b-2 border-white-900 md:border-none"
+            class="block md:inline-block text-gray-50 hover:text-red-600 px-3 py-3 border-b-2 border-white-900 md:border-none"
             class:active={$page.path === "/venue"}
         >
             Venue
@@ -69,7 +69,7 @@
         </a> -->
         <a
             href="/about"
-            class="block md:inline-block text-gray-50 hover:text-red-500 px-3 py-3 border-b-2 border-white-900 md:border-none"
+            class="block md:inline-block text-gray-50 hover:text-red-600 px-3 py-3 border-b-2 border-white-900 md:border-none"
             class:active={$page.path === "/about"}
         >
             About
@@ -88,5 +88,6 @@
     }
     .active {
         text-decoration: underline;
+        color: red;
     }
 </style>
