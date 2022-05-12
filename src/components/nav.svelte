@@ -19,7 +19,7 @@
         <img
             src="authenticBoxing.jpeg"
             alt="Authentic Logo"
-            width="90"
+            width="80"
             id="logo"
         />
     </a>
