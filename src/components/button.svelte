@@ -6,7 +6,7 @@
 
 <style>
     button {
-        background-color: rgba(0, 0, 0, 0.244);
+        background-color: rgba(255, 0, 0, 0.444);
         transition: all 1s ease-in-out;
         transform: scale(1.1);
         border: gray solid 1px;
@@ -17,7 +17,7 @@
         transition: all 0.5s ease-in;
         border: solid white 1px;
         transform: scale(1.5);
-        background-color: rgba(219, 205, 205, 0.637);
-        color: black;
+        background-color: rgba(212, 25, 25, 0.837);
+        color: white;
     }
 </style>

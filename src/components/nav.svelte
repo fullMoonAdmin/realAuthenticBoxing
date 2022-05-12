@@ -17,7 +17,7 @@
     <!-- logo -->
     <a href="/">
         <img
-            src="authenticLogo.svg"
+            src="authenticBoxing.jpeg"
             alt="Authentic Logo"
             width="90"
             id="logo"
@@ -48,28 +48,28 @@
     >
         <a
             href="/"
-            class="block md:inline-block text-gray-50 hover:text-blue-500 px-3 py-3 border-b-2 border-white-900 md:border-none"
+            class="block md:inline-block text-gray-50 hover:text-red-500 px-3 py-3 border-b-2 border-white-900 md:border-none"
             class:active={$page.path === "/"}
         >
             Home
         </a>
         <a
             href="/venue"
-            class="block md:inline-block text-gray-50 hover:text-blue-500 px-3 py-3 border-b-2 border-white-900 md:border-none"
+            class="block md:inline-block text-gray-50 hover:text-red-500 px-3 py-3 border-b-2 border-white-900 md:border-none"
             class:active={$page.path === "/venue"}
         >
             Venue
         </a>
-        <a
+        <!-- <a
             href="/our_boxers"
             class="block md:inline-block text-gray-50 hover:text-blue-500 px-3 py-3 border-b-2 border-white-900 md:border-none"
             class:active={$page.path === "/our_boxers"}
         >
             Our Boxers
-        </a>
+        </a> -->
         <a
             href="/about"
-            class="block md:inline-block text-gray-50 hover:text-blue-500 px-3 py-3 border-b-2 border-white-900 md:border-none"
+            class="block md:inline-block text-gray-50 hover:text-red-500 px-3 py-3 border-b-2 border-white-900 md:border-none"
             class:active={$page.path === "/about"}
         >
             About
