@@ -35,7 +35,6 @@
                 offers professional training and management.
             </p>
         </div>
-        <img src="/awards/burnett1.jpeg" alt="" />
         <Map />
         <Contact />
     </div>
