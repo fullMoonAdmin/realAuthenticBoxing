@@ -10,9 +10,9 @@
     <h2>The Venue</h2>
     <img src="seatingChart.svg" id="seatingPlan" alt="seat map for venue" />
     <Map />
-
+    <!--
     <h2>Concessions Menu</h2>
-
+-->
     <Contact />
   </div>
 </main>
