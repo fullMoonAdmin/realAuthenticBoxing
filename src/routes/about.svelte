@@ -92,7 +92,7 @@
     #coach-info {
         max-width: 300px;
         margin: 1.5em;
-        text-indent: 2em;
+        text-align: center;
     }
     #coach {
         width: 305px;
