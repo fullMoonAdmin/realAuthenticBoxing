@@ -33,15 +33,7 @@
     margin-top: 80px;
     font-size: 40px;
   }
-  #seat {
-    margin-top: 75px;
-  }
-  #gym {
-    margin: 1rem;
-    width: 40rem;
-    border-radius: 4px;
-    border: solid 2px gray;
-  }
+  
   #seatingPlan {
     width: 75rem;
     border-radius: 4px;
