@@ -12,14 +12,14 @@
 </script>
 
 <nav
-    class="flex flex-wrap items-center justify-between p-5 bg-gradient-to-r from-black to-gray-600 sticky top-0 z-50 "
+    class="flex flex-wrap items-center justify-between p-1 bg-gradient-to-r from-black to-gray-600 sticky top-0 z-50 "
 >
     <!-- logo -->
     <a href="/">
         <img
             src="authenticBoxing.jpeg"
             alt="Authentic Logo"
-            width="80"
+            width="70"
             id="logo"
         />
     </a>
