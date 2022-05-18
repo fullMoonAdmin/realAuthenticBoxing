@@ -6,7 +6,7 @@
 
 <main>
     <div class="flex-container">
-        <h1>About Us</h1>
+       
         <img
             src="authenticBoxing.jpeg"
             alt="Authentic Logo"

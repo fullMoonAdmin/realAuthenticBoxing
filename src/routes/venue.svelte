@@ -5,7 +5,7 @@
 </script>
 
 <main>
-  <h1>Authentic Boxing</h1>
+ 
   <div class="flex-container">
     <h2>The Venue</h2>
     <img src="seatingChart.svg" id="seatingPlan" alt="seat map for venue" />
