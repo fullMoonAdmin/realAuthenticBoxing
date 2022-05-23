@@ -52,6 +52,6 @@
     }
     #fightCard {
         border-radius: 4px;
-        border: solid 2px gray;
+        border: solid 2px silver;
     }
 </style>
