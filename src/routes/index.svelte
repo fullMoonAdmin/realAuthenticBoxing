@@ -12,11 +12,14 @@
 <main>
     <div class="flex-container">
         <h1>Upcoming Events</h1>
-        <img
+
+        
+        <p>Strike Night 14 is scheduled for July 30th. Tickets are already on sale and the fight card is comming soon!</p>
+        <!--<img
             src="fightCards/authenticCurrentCard.jpeg"
             alt="strike night poster"
             id="fightCard"
-        />
+        />-->        
     </div>
 
     <div class="flex-container">
