@@ -14,7 +14,7 @@
         <h1>Upcoming Events</h1>
 
         
-        <p>Strike Night 14 is scheduled for July 30th. Tickets are already on sale and the fight card is comming soon!</p>
+        <p>Strike Night 14 is scheduled for July 30th. Tickets sales and the fight card are comming soon!</p>
         <!--<img
             src="fightCards/authenticCurrentCard.jpeg"
             alt="strike night poster"
