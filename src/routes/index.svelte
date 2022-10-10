@@ -15,12 +15,12 @@
 
         
         
-        <!-- <img
-            src="fightCards/authenticCurrentCard.jpg"
+         <img
+            src="fightCards/authenticNov.jpg"
             alt="strike night poster"
             id="fightCard"
-        /> -->  
-        <h3>Comming Soon</h3>      
+        />   
+       <!-- <h3>Comming Soon</h3> -->     
     </div>
 
     <div class="flex-container">
