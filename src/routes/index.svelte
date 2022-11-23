@@ -25,7 +25,7 @@
         -->
         <h2>January 28th, 2023</h2> 
          
-       <h3>More Information Comming Soon</h3>      
+       <h3>More Information Coming Soon</h3>      
     </div>
 
     <div class="flex-container">
