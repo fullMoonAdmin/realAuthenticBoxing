@@ -50,6 +50,7 @@
         font-family: "Alfa Slab One", cursive;
         -webkit-text-stroke: 1px black;
     }
+
     #docker {
         background-color: black;
         margin-bottom: -20px;

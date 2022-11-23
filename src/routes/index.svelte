@@ -45,14 +45,17 @@
         font-size: 1.5em;
     }
     h1 {
-        font-size: 40px;
+        font-size: 2rem;
         margin-top: 1em;
         margin-bottom: 1em;
     }
     h2 {
-        font-size: 32px;
+        font-size: 1.75rem;
         margin-top: 0.5em;
         margin-bottom: 0.5em;
+    }
+    h3 {
+        font-size: 1.25rem;
     }
     img {
         width: 70rem;
