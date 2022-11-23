@@ -11,7 +11,9 @@
 <Hero />
 <main>
     <div class="flex-container">
-        <h1>Upcoming Events</h1>
+        
+        <h1>Upcoming Events</h1> 
+        <!-- 
 
         
         
@@ -19,8 +21,11 @@
             src="fightCards/authenticNov.jpg"
             alt="strike night poster"
             id="fightCard"
-        />   
-       <!-- <h3>Comming Soon</h3> -->     
+        />
+        -->
+        <h2>January 28th, 2023</h2> 
+         
+       <h3>More Information Comming Soon</h3>      
     </div>
 
     <div class="flex-container">
@@ -43,6 +48,11 @@
         font-size: 40px;
         margin-top: 1em;
         margin-bottom: 1em;
+    }
+    h2 {
+        font-size: 32px;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
     }
     img {
         width: 70rem;
