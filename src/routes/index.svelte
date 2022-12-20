@@ -13,19 +13,20 @@
     <div class="flex-container">
         
         <h1>Upcoming Events</h1> 
-        <!-- 
+        
 
         
         
          <img
-            src="fightCards/authenticNov.jpg"
+            src="fightCards/newPoster.jpg"
             alt="strike night poster"
             id="fightCard"
         />
-        -->
+        <!--
         <h2>January 28th, 2023</h2> 
          
-       <h3>More Information Coming Soon</h3>      
+        <h3>More Information Coming Soon</h3> 
+        -->      
     </div>
 
     <div class="flex-container">
