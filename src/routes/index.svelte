@@ -18,7 +18,7 @@
         
         
          <img
-            src="fightCards/newPoster.jpg"
+            src="fightCards/newPosterStrikeNight16.jpg"
             alt="strike night poster"
             id="fightCard"
         />
