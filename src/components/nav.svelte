@@ -67,13 +67,13 @@
         >
             Our Boxers
         </a> -->
-        <a
+        <!-- <a
             href="/about"
             class="block md:inline-block text-gray-50 hover:text-red-600 px-3 py-3 border-b-2 border-white-900 md:border-none"
             class:active={$page.path === "/about"}
         >
             About
-        </a>
+        </a> -->
     </div>
 </nav>
 

@@ -8,9 +8,9 @@
         MON - THU: 5 pm - 8 pm <br />
         FRI: 5 pm - 7 pm <br />
 
-        <!-- <span id="phone-number">
-            <a class="grow" href="tel:+18166959171">Phone: (816)695-9171</a>
-        </span> -->
+        <span id="phone-number">
+            <a class="grow" href="tel:+18168424280">Phone: (816)842-4280</a>
+        </span> 
     </h2>
 </div>
 
