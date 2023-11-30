@@ -14,12 +14,13 @@
         
         <h1>Upcoming Events</h1> 
         
-        <img
+        <!-- 
+            <img
             src="fightCards/authenticCurrentCard.jpg"
             alt="strike night poster"
             id="fightCard"
-        />
-
+            />
+        -->
         
          
         

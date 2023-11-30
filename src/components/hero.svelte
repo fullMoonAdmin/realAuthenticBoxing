@@ -22,7 +22,9 @@
     </div>
 
     <div class="video-content">
-        <Button />
+        <!-- 
+            <Button />
+        --> 
         <h1>Authentic Boxing</h1>
     </div>
 </section>
